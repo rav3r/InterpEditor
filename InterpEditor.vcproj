@@ -179,6 +179,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\IMGUI\src\gfxRenderer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\IMGUI\src\gfxRenderer.h"
+				>
+			</File>
+			<File
 				RelativePath=".\IMGUI\src\igContext.cpp"
 				>
 			</File>
@@ -195,7 +203,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\IMGUI\src\igRenderer.h"
+				>
+			</File>
+			<File
 				RelativePath=".\IMGUI\src\IMGUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\IMGUI\src\main.cpp"
 				>
 			</File>
 		</Filter>

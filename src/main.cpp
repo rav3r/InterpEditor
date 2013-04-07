@@ -5,6 +5,7 @@
 #include "../IMGUI/src/gfxlib.h"
 
 #include "../IMGUI/src/IMGUI.h"
+#include "../IMGUI/src/gfxRenderer.h"
 
 sf::RenderWindow* gWindow = 0;
 sf::Font* gFont = 0;
@@ -100,7 +101,8 @@ int main()
 	if(!font.loadFromFile("data/Cabin-Regular.otf"))
 		return EXIT_FAILURE;
 
-	igContext gui;
+	gfxRenderer renderer;
+	igContext gui(&renderer);
 
 	std::vector<InterpPoint> points;
 
